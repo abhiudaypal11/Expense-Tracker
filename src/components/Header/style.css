@@ -1,0 +1,36 @@
+.navbar {
+   
+  font-family: 'Arial', sans-serif;
+   padding:  1.5rem;
+   height: auto;
+   position: -webkit-sticky; 
+    position: sticky;  
+    top:0;
+    left:0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;  /* Deep slate blue */
+   
+  }
+  
+  .logo{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin:0;
+  }
+
+  .link{
+    opacity: 0.8;
+    cursor: pointer;
+
+  }
+
+  .link:hover{
+    opacity: 1;
+    transition: all 0.3s;
+  
+  }
+  

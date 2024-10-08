@@ -1,0 +1,48 @@
+/* General styling for the hero section */
+.hero-section {
+    background-color: #1d1f28;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Gradient effect on specific text */
+  .gradient-text {
+    background: linear-gradient(90deg, #65e9e4, #826de6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Subtext styling */
+  .hero-section p {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+  }
+  
+  /* Styling the Get Started button */
+  .get-started-btn {
+    background-color: #3366ff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #254edb; /* Darker blue on hover */
+  }
+  
